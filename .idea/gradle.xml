@@ -11,8 +11,10 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/firebaseauthenticationdemo" />
+            <option value="$PROJECT_DIR$/realtimedatabase" />
+            <option value="$PROJECT_DIR$/retrievedata" />
+            <option value="$PROJECT_DIR$/writedatafirebase" />
           </set>
         </option>
       </GradleProjectSettings>

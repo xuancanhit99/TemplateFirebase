@@ -13,5 +13,7 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "TemplateFirebase"
-include ':app'
+include ':writedatafirebase'
 include ':firebaseauthenticationdemo'
+include ':retrievedata'
+include ':realtimedatabase'

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "219734973414",
+    "firebase_url": "https://dangkythanhviendemo-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "dangkythanhviendemo",
+    "storage_bucket": "dangkythanhviendemo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:219734973414:android:8a8fa93dc40bf98911d427",
+        "android_client_info": {
+          "package_name": "com.xuancanhit.firebaseauthenticationdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "219734973414-9rgr91uj26hr52e30tpmacl3hca43sd7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCC2Qg1Usf45Mb8z2YlOdiINQggpFFSqu0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "219734973414-9rgr91uj26hr52e30tpmacl3hca43sd7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

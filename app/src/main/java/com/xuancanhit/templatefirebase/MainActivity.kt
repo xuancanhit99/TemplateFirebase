@@ -2,6 +2,7 @@ package com.xuancanhit.templatefirebase
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.ktx.database
 import com.google.firebase.ktx.Firebase
@@ -22,19 +23,21 @@ class MainActivity : AppCompatActivity() {
 
         database = Firebase.database.reference
 
-        //writeNewUser("1", "Canh1", "xuancanhit99@gmail.com")
+        database.child("Ho Ten").setValue("Hoang Anh")
 
-        //database.child("users").child("1").child("Canh1").setValue("A")
+
+        writeNewUser("3", "Canh2", "xuancanhit99@gmail.com")
+
+        //database.child("users").child("2").child("Canh1").setValue("A")
 
 //        val readWriteMap = hashMapOf("Name" to 1, "Gender" to 2)
 //        val snapshot: Map<String, Int> = HashMap(readWriteMap)
 //        database.child("Student").setValue(snapshot)
 
-         val user = User("Cuong","cuong @gmail.com ")
-        database.child("NguoiDung").push().setValue(user)
+        //val user = User("Cuong", "cuong @gmail.com ")
+        //database.child("NguoiDung").push().setValue(user)
 
 
-        //Bat su kien hoan thanh
 
 
     }
@@ -42,7 +45,15 @@ class MainActivity : AppCompatActivity() {
     private fun writeNewUser(userId: String, name: String, email: String) {
         val user = User(name, email)
 
-        database.child("users").child(userId).setValue(user)
+        //bat su kien kiem tra write database
+        database.child("users").child(userId)
+            .setValue(user, DatabaseReference.CompletionListener { error, ref ->
+                if (error == null)
+                    Toast.makeText(this, "Saved", Toast.LENGTH_SHORT).show()
+                else
+                    Toast.makeText(this, "Err when save", Toast.LENGTH_SHORT).show()
+
+            })
     }
 
 }

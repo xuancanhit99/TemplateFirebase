@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "575417757963",
+    "firebase_url": "https://savefile-f9635-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "savefile-f9635",
+    "storage_bucket": "savefile-f9635.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:575417757963:android:2c5d6fe97ceb7d7b80b20e",
+        "android_client_info": {
+          "package_name": "com.xuancanhit.storagefirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "575417757963-qnno5s52oo1fm92k0fn3drop7qdf6r6g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCOIcoKCKvanjxknSpX6UsYsFYVMCWpeE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "575417757963-qnno5s52oo1fm92k0fn3drop7qdf6r6g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

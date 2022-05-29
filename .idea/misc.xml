@@ -4,6 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="firebaseauthenticationdemo/src/main/res/layout/activity_main.xml" value="0.2565338134765625" />
+        <entry key="storagefirebase/src/main/res/layout/activity_main.xml" value="0.25749053955078127" />
+        <entry key="storagefirebase/src/main/res/layout/list_item.xml" value="0.1068840579710145" />
       </map>
     </option>
   </component>

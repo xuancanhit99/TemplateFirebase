@@ -15,5 +15,6 @@ dependencyResolutionManagement {
 rootProject.name = "TemplateFirebase"
 include ':writedatafirebase'
 include ':firebaseauthenticationdemo'
-include ':retrievedata'
+include ':readdatafirebase'
 include ':realtimedatabase'
+include ':storagefirebase'

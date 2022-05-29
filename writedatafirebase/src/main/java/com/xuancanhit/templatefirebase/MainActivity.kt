@@ -47,13 +47,13 @@ class MainActivity : AppCompatActivity() {
 
         //bat su kien kiem tra write database
         database.child("users").child(userId)
-            .setValue(user, DatabaseReference.CompletionListener { error, ref ->
+            .setValue(user) { error, ref ->
                 if (error == null)
                     Toast.makeText(this, "Saved", Toast.LENGTH_SHORT).show()
                 else
                     Toast.makeText(this, "Err when save", Toast.LENGTH_SHORT).show()
 
-            })
+            }
     }
 
 }

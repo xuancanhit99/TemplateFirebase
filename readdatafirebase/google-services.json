@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "1051145241714",
+    "firebase_url": "https://retrievedata-2fe6d-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "retrievedata-2fe6d",
+    "storage_bucket": "retrievedata-2fe6d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1051145241714:android:f9e4e081434cf385c0aeeb",
+        "android_client_info": {
+          "package_name": "com.xuancanhit.retrievedata"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1051145241714-vq5khbeg7p3pk3st8fkltplhf90u89cs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJ7NblN7QE0ADJYIjNBfxlYmmSquoMsXA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1051145241714-vq5khbeg7p3pk3st8fkltplhf90u89cs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1051145241714:android:365a8204c8578d0bc0aeeb",
+        "android_client_info": {
+          "package_name": "om.xuancanhit.retrievedata"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1051145241714-vq5khbeg7p3pk3st8fkltplhf90u89cs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJ7NblN7QE0ADJYIjNBfxlYmmSquoMsXA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1051145241714-vq5khbeg7p3pk3st8fkltplhf90u89cs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

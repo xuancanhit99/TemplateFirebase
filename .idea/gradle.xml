@@ -12,8 +12,9 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/firebaseauthenticationdemo" />
+            <option value="$PROJECT_DIR$/readdatafirebase" />
             <option value="$PROJECT_DIR$/realtimedatabase" />
-            <option value="$PROJECT_DIR$/retrievedata" />
+            <option value="$PROJECT_DIR$/storagefirebase" />
             <option value="$PROJECT_DIR$/writedatafirebase" />
           </set>
         </option>
